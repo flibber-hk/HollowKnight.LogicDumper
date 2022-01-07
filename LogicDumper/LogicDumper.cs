@@ -21,7 +21,7 @@ namespace LogicDumper
         
         public override string GetVersion()
         {
-            return GetType().Assembly.GetName().Version.ToString();;
+            return GetType().Assembly.GetName().Version.ToString();
         }
         
         public override void Initialize()
